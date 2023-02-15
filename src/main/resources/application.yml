@@ -1,0 +1,10 @@
+spring:
+  main:
+    web-application-type: reactive
+  profiles:
+    active: dev
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/example
+    password: password
+    username: example
